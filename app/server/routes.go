@@ -20,5 +20,9 @@ func (s *Server) RegisterRoutes() http.Handler {
 		MaxAge:           300,
 	}))
 
+	// init all handler
+
+	// register your route
+
 	return r
 }
